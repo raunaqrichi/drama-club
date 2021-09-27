@@ -13,7 +13,7 @@ const List = (props) =>{
         <div>
              <h2>Numbers of Actor: {props.list.length}</h2>
              <h3>Total Cost: ${total}</h3>
-             {hackerName.map((actorName)=>{
+             {actorName.map((actorName)=>{
            return(
                <div>
                <h3> { actorName }  </h3>
