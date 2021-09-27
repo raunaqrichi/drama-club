@@ -1,0 +1,19 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.calculation{
+    display: flex;
+}
+.list{
+    box-shadow: 3px 3px 3px gray;
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: rgb(221, 221, 206);
+    overflow: hidden;
+}
